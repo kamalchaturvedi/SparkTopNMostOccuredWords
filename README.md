@@ -11,8 +11,9 @@ exercising the amazing spark APIs. There is detailed explaination of what task e
     spark-submit --class "com.kamal.SparkWordCount.SparkWordCountApplication" --master local[2] "./SparkWordCount.jar" ./big.txt ./output 10
 
 Where you can replace 
-./big.txt with the input file path
 
-./output with the output file path &
+**./big.txt** with the input file path
+
+**./output** with the output file path &
                       
-10 with the value of N (For the usecase : Top N most occured words)
+**10** with the value of N (For the usecase : Top N most occured words)
